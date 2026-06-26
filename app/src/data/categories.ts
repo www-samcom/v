@@ -1,0 +1,26 @@
+import type { Category } from '@/types';
+
+export const CATEGORIES: Category[] = [
+  { id: 'developer', label: 'Developer Portfolios', icon: 'terminal', color: '#818cf8', count: 3 },
+  { id: 'ai_startup', label: 'AI Startups', icon: 'cpu', color: '#22d3ee', count: 3 },
+  { id: 'saas', label: 'SaaS Products', icon: 'zap', color: '#a78bfa', count: 3 },
+  { id: 'ecommerce', label: 'E-commerce Fashion', icon: 'tag', color: '#f472b6', count: 2 },
+  { id: 'luxury', label: 'Luxury Brands', icon: 'crown', color: '#f59e0b', count: 2 },
+  { id: 'eyewear', label: 'Eyewear Stores', icon: 'eye', color: '#34d399', count: 2 },
+  { id: 'shipping', label: 'Shipping Companies', icon: 'package', color: '#60a5fa', count: 2 },
+  { id: 'logistics', label: 'Logistics Companies', icon: 'activity', color: '#fb923c', count: 2 },
+  { id: 'realestate', label: 'Real Estate', icon: 'home', color: '#a3e635', count: 2 },
+  { id: 'restaurant', label: 'Restaurants', icon: 'star', color: '#f97316', count: 2 },
+  { id: 'cafe', label: 'Cafes', icon: 'sparkles', color: '#c084fc', count: 2 },
+  { id: 'gym', label: 'Gyms & Fitness', icon: 'trending_up', color: '#4ade80', count: 2 },
+  { id: 'medical', label: 'Medical Clinics', icon: 'shield', color: '#38bdf8', count: 2 },
+  { id: 'dental', label: 'Dentists', icon: 'user', color: '#a5f3fc', count: 2 },
+  { id: 'legal', label: 'Law Firms', icon: 'lock', color: '#d4b483', count: 2 },
+  { id: 'marketing', label: 'Marketing Agencies', icon: 'rocket', color: '#f43f5e', count: 2 },
+  { id: 'creative', label: 'Creative Agencies', icon: 'palette', color: '#e879f9', count: 2 },
+  { id: 'personal', label: 'Personal Brands', icon: 'sparkles', color: '#fbbf24', count: 2 },
+  { id: 'mobile_app', label: 'Mobile Apps', icon: 'cpu', color: '#06b6d4', count: 2 },
+  { id: 'finance', label: 'Finance Companies', icon: 'bar_chart', color: '#22c55e', count: 2 },
+  { id: 'crypto', label: 'Crypto Projects', icon: 'database', color: '#f97316', count: 2 },
+  { id: 'education', label: 'Educational Platforms', icon: 'layers', color: '#818cf8', count: 2 },
+];
